@@ -11,7 +11,7 @@
 
 #banner{
     height: 500PX;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .container-banner-section{
     display: flex;
@@ -38,7 +38,7 @@
     text-decoration: none;
     text-transform: uppercase;
     /* background-color: tomato; */
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(90deg,orange,tomato);
     padding: 14px 22px;
     display: inline-block;
     width: 144px;
@@ -74,7 +74,7 @@
  /* DREM BIG SECTION */
  #dream-big-section{
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
  }
 .container-dream-big{
     display: flex;
@@ -121,4 +121,91 @@
     border-radius: 8px;
     text-transform: uppercase;
 }
+hr{
+    border-top: 2px solid grey;
+    border-bottom:none;
+    opacity: 0.3;
+    margin-top: 25px;
+    width: 70%;
+    margin: 25px auto;
+	
+}
 /* DREM BIG SECTION END HERE */
+
+#experience{
+    margin: 60px 0px;
+    width: 100%;
+    background-image: url("/Portfolio-Without-Responsive/image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 260px;
+}
+
+.experience-text{
+    padding: 5px;
+    text-align: center;
+    
+    position: relative;
+}
+.experience-h1{
+    font-size: 40px;
+}
+.experience-text h1::after{
+    content: "";
+    width: 150px;
+    height: 6px;
+    display: block;
+    background-image:linear-gradient(90deg,orange,tomato);
+    position: absolute;
+    left: 43.9%;
+    top: 63%;
+    margin:9px 0px;
+}
+.experiences{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+.experiences-left{
+    width: 40%;
+    margin: 0 5%;
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 0 5%;
+    border-radius: 5px;
+    border-left: 7px solid tomato;
+    box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    
+}
+.experiences-left-text{
+    padding:5px 5px 5px 35px;
+    margin-bottom: 60px;
+}
+.experiences-right-text{
+    padding:5px 5px 5px 35px;
+    margin-bottom: 60px;
+}
+.experiences-right{
+    width: 40%;
+    margin: 0 5%;
+    border-radius: 5px;
+    border-left: 7px solid blue;
+    box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: -1px 2px 44px 0px rgba(0,0,0,0.62);
+    
+
+}
+#experience h1{
+    margin:50px 0px;
+    font-size:35px;
+}
+#experience h3{
+    margin: 40px 0px 30px 0px;
+    color:orange;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
