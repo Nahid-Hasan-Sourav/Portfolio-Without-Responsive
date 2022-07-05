@@ -121,7 +121,7 @@
     border-radius: 8px;
     text-transform: uppercase;
 }
-hr{
+/* hr{
     border-top: 2px solid grey;
     border-bottom:none;
     opacity: 0.3;
@@ -129,9 +129,10 @@ hr{
     width: 70%;
     margin: 25px auto;
 	
-}
+} */
 /* DREM BIG SECTION END HERE */
 
+/* EXPERIENCE  SECTION START HERE */
 #experience{
     margin: 60px 0px;
     width: 100%;
@@ -205,6 +206,7 @@ hr{
     margin: 40px 0px 30px 0px;
     color:orange;
 }
+/* EXPERIENCE SECTION END HERE */
 footer{
     text-align: center;
     margin-bottom: 30px;
